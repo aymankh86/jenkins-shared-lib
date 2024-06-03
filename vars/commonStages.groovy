@@ -1,3 +1,3 @@
-def call() {
-    sh 'python3 --version'
+def python_version() {
+    sh 'python --version'
 }
